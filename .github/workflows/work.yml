@@ -1,12 +1,12 @@
 name: Sahar
 
 on:
-   push:
-     branches:
+ push:
+    branches:
       - main
 
 jobs:
- name: myfirstciproject
+ myfirstciproject:
    runs-on: ubuntu-latest
    steps:
     - name: Echo
